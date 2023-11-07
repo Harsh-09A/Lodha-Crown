@@ -2,6 +2,12 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --colorPrimary: #053777;
+  --colorSecondary: #45638a;
+  --colorBtn: #ffffff;
+}
 @media only screen and (min-width: 990px) {
   header,
   main,
@@ -63,4 +69,157 @@ section h3 {
 
 .carousel-item img {
   max-height: 80vh;
+}
+
+/* Info Box */
+.info-box {
+  width: 22vw;
+  text-align: center;
+}
+.info-box {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  z-index: 9;
+  margin-top: 6em;
+  padding-bottom: 1.5vw;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding-top: 1.5vw;
+}
+
+.pro-title {
+  display: block;
+  padding: 1.2vw 0.8vw 0.3vw;
+  font-size: 1.8vw;
+  line-height: 2vw;
+  text-transform: capitalize;
+  color: #212529;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pro-status {
+  padding: 10px;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #000;
+  border-bottom: 1px solid #053777;
+  width: 100%;
+}
+.pro-add {
+  padding: 3px 4px 0 0;
+}
+
+.card-d {
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto 15px;
+  background-color: #eee;
+}
+
+.info-box span.heading2 {
+  color: #000;
+  font-weight: 400;
+  width: 6vw !important;
+  display: inline-block;
+}
+.info-box span.heading1,
+.info-box span.heading2 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 1vw;
+}
+.info-box span.heading1 {
+  color: #000;
+  font-weight: 700;
+  width: 9vw !important;
+  display: inline-block;
+}
+
+.of-box {
+  font-size: 15px;
+  width: 95%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+}
+
+.offer-bg-animation {
+  color: #fff;
+  display: block;
+  background: linear-gradient(
+    -45deg,
+    var(--colorPrimary),
+    var(--colorSecondary),
+    var(--colorPrimary),
+    var(--colorSecondary)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: 3s infinite Gradient;
+  -moz-animation: 3s infinite Gradient;
+  animation: 3s infinite Gradient;
+}
+.offer-text {
+  display: block;
+  font-size: 1vw !important;
+  color: #fff;
+  border: 2px dashed #fff;
+  padding: 10px 5px;
+}
+
+.pro-tag-line {
+  display: block;
+  padding: 0.1vw 0.8vw;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 1.4vw;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.pro-price {
+  padding: 0.1vw 0.8vw 0.3vw;
+  font-size: 1.8vw;
+  font-weight: 800;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.download-btn {
+  font-size: 1.2vw;
+  padding: 0.3vw 2vw;
+  background: linear-gradient(
+    -45deg,
+    var(--colorPrimary),
+    var(--colorSecondary),
+    var(--colorPrimary),
+    var(--colorSecondary)
+  );
+  text-shadow: 0 3px 6px var(--colorPrimary);
+  background-color: var(--colorSecondary);
+  background-size: 400% 400%;
+  -webkit-animation: 3s infinite Gradient, 3s infinite rocking;
+  -moz-animation: 3s infinite Gradient, 3s infinite rocking;
+  animation: 3s 2s infinite Gradient, 3s 2s infinite rocking;
+  color: var(--colorBtn);
+  border: none;
+}
+
+.effetMoveGradient,
+.effetMoveGradient:hover {
+  text-shadow: 0 3px 6px var(--colorPrimary);
+  background-color: var(--colorSecondary);
+  background-size: 400% 400%;
+  -webkit-animation: 3s infinite Gradient, 3s infinite rocking;
+  -moz-animation: 3s infinite Gradient, 3s infinite rocking;
+  animation: 3s 2s infinite Gradient, 3s 2s infinite rocking;
+  color: var(--colorBtn);
+  border: none;
 }
