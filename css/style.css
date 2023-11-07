@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (min-width: 990px) {
+  header,
+  main,
+  footer {
+    width: 80%;
+  }
+}
+header {
+  z-index: 10;
+}
+/* Temp CSS */
+section:nth-child(odd) {
+  min-height: 50vh;
+  background-color: #7678ed;
+}
+section:nth-child(even) {
+  min-height: 50vh;
+  background-color: #fcf6bd;
+}
+section h3 {
+  text-align: center;
+  padding-top: 10px;
+}
