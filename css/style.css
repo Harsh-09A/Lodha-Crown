@@ -25,3 +25,27 @@ section h3 {
   text-align: center;
   padding-top: 10px;
 }
+
+/*  */
+.nav-item {
+  border-right: 0.1vw solid #dbe4e9;
+}
+.navbar-nav:first-child {
+  border-left: 0.1vw solid #dbe4e9;
+}
+.navbar-nav {
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-icon {
+  margin-right: 5px;
+  font-size: 1.25vw;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background-color: #053777;
+  height: 100%;
+  color: white;
+}
