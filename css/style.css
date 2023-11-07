@@ -10,6 +10,7 @@
   }
 }
 header {
+  max-height: 70px;
   z-index: 10;
 }
 /* Temp CSS */
@@ -26,7 +27,7 @@ section h3 {
   padding-top: 10px;
 }
 
-/*  */
+/* Navbar */
 .nav-item {
   border-right: 0.1vw solid #dbe4e9;
 }
@@ -48,4 +49,18 @@ section h3 {
   background-color: #053777;
   height: 100%;
   color: white;
+}
+
+/* Slider */
+#slider {
+  margin-top: 70px;
+}
+
+.carousel {
+  overflow: hidden !important;
+  /* max-height: 80vh; */
+}
+
+.carousel-item img {
+  max-height: 80vh;
 }
