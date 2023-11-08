@@ -20,26 +20,39 @@ header {
   z-index: 10;
 }
 /* Temp CSS */
-section:nth-child(odd) {
+/* section:nth-child(odd) {
   min-height: 50vh;
   background-color: #7678ed;
 }
 section:nth-child(even) {
   min-height: 50vh;
   background-color: #fcf6bd;
-}
-section h3 {
+} */
+section h3,
+footer h3 {
   text-align: center;
   padding-top: 10px;
 }
+.section {
+  /* min-height: 0vh; */
+  margin: 1vw 0;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 40px;
+  -moz-padding-end: 30px;
+  -moz-padding-start: 30px;
+}
 
+footer {
+  min-height: 50vh;
+}
 /* Navbar */
 .nav-item {
-  border-right: 0.1vw solid #dbe4e9;
-}
-.navbar-nav:first-child {
   border-left: 0.1vw solid #dbe4e9;
 }
+/* .navbar-nav:first-child {
+  border-left: 0.1vw solid #dbe4e9;
+} */
 .navbar-nav {
   justify-content: space-evenly;
   width: 100%;
@@ -47,7 +60,7 @@ section h3 {
 
 .nav-icon {
   margin-right: 5px;
-  font-size: 1.25vw;
+  /* font-size: 1.25vw; */
 }
 
 .navbar-nav .nav-link.active,
@@ -222,4 +235,75 @@ section h3 {
   animation: 3s 2s infinite Gradient, 3s 2s infinite rocking;
   color: var(--colorBtn);
   border: none;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+.color-primary {
+  color: var(--colorPrimary);
+}
+
+#overview {
+  padding: 30px;
+  max-height: fit-content;
+}
+.effetGradient,
+.effetGradient:hover {
+  text-shadow: 0 3px 6px var(--colorPrimary);
+  background-color: var(--colorSecondary);
+  background: linear-gradient(
+    -45deg,
+    var(--colorPrimary),
+    var(--colorSecondary),
+    var(--colorPrimary),
+    var(--colorSecondary)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: 3s infinite Gradient;
+  -moz-animation: 3s infinite Gradient;
+  animation: 3s infinite Gradient;
+  color: var(--colorBtn);
+  border: none;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+.at-property-dis {
+  padding: 0.5vw;
+  text-align: center;
+}
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.at-property-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.at-property-btn {
+  padding: 0.5vw 0.8vw;
+  width: 73%;
+  text-align: center;
+}
+
+.at-property-btn {
+  padding: 0.5vw 0.8vw;
+  width: 73%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+  .nav-item {
+    border-left: none;
+  }
+  .info-box {
+    display: none;
+  }
 }
