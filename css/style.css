@@ -34,7 +34,7 @@ footer h3 {
   padding-top: 10px;
 }
 .section {
-  min-height: 60vh;
+  /* min-height: 60vh; */
   margin: 1vw 0;
   position: relative;
   overflow: hidden;
@@ -43,9 +43,6 @@ footer h3 {
   -moz-padding-start: 30px;
 }
 
-footer {
-  min-height: 50vh;
-}
 /* Navbar */
 .nav-item {
   border-left: 0.1vw solid #dbe4e9;
@@ -325,4 +322,64 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+
+/* Plans */
+.master-plan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.master-plan img {
+  width: 500px;
+}
+
+.plan-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.gal-img {
+  width: 300px;
+}
+.gal-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.gal-img img:hover {
+  transform: scale(1.1);
+}
+
+.virtual-visit {
+  height: 400px;
+}
+
+.bg-image {
+  background-image: url("/assets/img/1982231247.jpg");
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.tour-img {
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-info:hover {
+  transform: scale(0.9);
+}
+.play-btn {
+  font-size: 80px;
+}
+footer {
+  padding: 20px;
+}
+.footer-logo {
+  width: 150px;
 }
