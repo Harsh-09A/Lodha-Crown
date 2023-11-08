@@ -34,7 +34,7 @@ footer h3 {
   padding-top: 10px;
 }
 .section {
-  /* min-height: 0vh; */
+  min-height: 60vh;
   margin: 1vw 0;
   position: relative;
   overflow: hidden;
@@ -306,4 +306,23 @@ footer {
   .info-box {
     display: none;
   }
+}
+
+.carousel-image {
+  height: 10rem;
+  background: #009688;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+}
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
