@@ -33,15 +33,16 @@
   <body
     data-bs-spy="scroll"
     data-bs-target="#navbar-example2"
-    data-bs-root-margin="0px 0px -70%"
+    data-bs-root-margin="0px 0px -60%"
     data-bs-smooth-scroll="true"
     class="scrollspy-example"
     tabindex="0"
     data-offset="1"
   >
-    <header class="fixed-top">
+    <header class="fixed-top shadow-sm">
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary"
+        class="navbar navbar-expand-lg"
+        style="background-color: #ffffff"
         id="navbar-example2"
       >
         <div class="container-fluid">
@@ -113,6 +114,7 @@
 
     <main>
       <section id="slider">
+        <!-- Slider -->
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -164,6 +166,7 @@
             </div>
           </div>
         </div>
+        <!-- Info Box -->
         <div class="info-box card overflow-hidden">
           <span class="pro-status">Early Bird Offer: Limited Time Only </span>
 
@@ -173,7 +176,7 @@
           >
             <span class="pro-add">At Dombivli by Lodha Group </span>
           </div>
-          <div class="card-d">
+          <div class="card-d p-2">
             <div>
               <span class="heading2">Land Parcel </span>
               <span class="heading1">17 Acres</span>
@@ -198,17 +201,18 @@
               >
             </span>
           </span>
-          <span class="pro-tag-line">
+          <span class="pro-tag-line p-2">
             Luxurious<b> 1 &amp; 2 BHK</b> Starts from</span
           >
-          <span class="pro-price"
-            >₹ 35.9 Lacs <small style="font-size: 16px">All Inc</small>
+          <span class="pro-price pb-3"
+            >₹ 35.9 Lacs <small style="font-size: 14px">All Inc</small>
           </span>
-          <button class="download-btn">Download Brochure</button>
+          <button class="download-btn m-2">Download Brochure</button>
         </div>
       </section>
 
       <section id="overview" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h1 class="d-block section-heading color-primary text-capitalize">
           Welcome to Lodha Crown Dombivli
         </h1>
@@ -221,7 +225,7 @@
           - the complex is curated to provide easy comforts.
         </p>
         <p>
-          <span class="collapse" id="myCollapsible">
+          <span class="collapse mb-2" id="myCollapsible">
             Based in a peaceful corner of Dombivli, the complex is near reputed
             schools and hospitals such as Eva World School and Aims Hospital. It
             also offers a dedicated bus service to Dombivli Station, every 20
@@ -238,6 +242,7 @@
             role="button"
             aria-expanded="false"
             aria-controls="myCollapsible"
+            class="text-decoration-none"
           >
             <span class="collapsed"> Show More </span>
             <span class="expanded"> Show Less </span>
@@ -247,6 +252,7 @@
       </section>
 
       <section id="pricing" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h3>Pricing</h3>
         <div class="row">
           <div class="col-md-8">
@@ -397,6 +403,7 @@
       </section>
 
       <section id="floor-plan" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h3>Site & Floor Plan Of Lodha Crown Dombivli</h3>
         <h6>Master Plan</h6>
         <div class="master-plan">
@@ -433,6 +440,7 @@
       </section>
 
       <section id="amenities" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h3>Amenities</h3>
         <div class="owl-carousel owl-theme">
           <div class="item">
@@ -483,6 +491,7 @@
       </section>
 
       <section id="gallery" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h3>Gallery</h3>
         <div class="container text-center">
           <div class="row">
@@ -503,6 +512,7 @@
       </section>
 
       <section id="location" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <h3>Location</h3>
         <div class="container text-center">
           <div class="row">
@@ -548,6 +558,7 @@
       </section>
 
       <section id="virtual-tour" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <div class="container virtual-visit">
           <div
             class="bg-image d-flex align-items-center text-white text-center"
@@ -563,6 +574,7 @@
         </div>
       </section>
       <section id="disclaimer" class="section shadow-sm lazyloaded">
+        <span class="section-link"></span>
         <div class="container d-flex justify-content-center">
           <img class="footer-logo" src="/assets/img/Crown-U.png" alt="" />
         </div>
@@ -635,7 +647,81 @@
       </section>
     </main>
 
-    <aside></aside>
+    <aside class="position-fixed top-0 end-0">
+      <div>
+        <div class="sidebar-top pb-3">
+          <ul class="nav nav-fill side-top-block">
+            <li
+              class="nav-item enqModal pe-1"
+              data-form="lg"
+              data-title="Pre Register"
+              data-btn="Register Now "
+              data-enquiry="Organize Site Visit"
+              data-toggle="modal"
+              data-target="#enqModal"
+            >
+              Pre Register
+            </li>
+            <li class="nav-item ps-1">
+              <a
+                href="tel:+912248962468"
+                class="text-white text-decoration-none"
+              >
+                <i class="fa-solid fa-phone me-2"></i>+912248962468</a
+              >
+            </li>
+          </ul>
+          <div class="container d-flex justify-content-center pt-1">
+            <button
+              class="btn btn-sm btn-info micro-form-btn-sm effetGradient effectScale enqModal mt-1"
+              data-form="sm"
+              data-title="Immediate Call Back"
+              data-btn="Request Call Now"
+              data-enquiry="Request Call Back"
+              data-toggle="modal"
+              data-target="#enqModal"
+            >
+              <i class="fa-solid fa-phone me-2"></i> Instant Call Back
+            </button>
+          </div>
+        </div>
+        <span class="d-block text-center text-black fw-bold my-2"
+          >Get The Best Quote
+        </span>
+        <div class="container">
+          <form class="text-center">
+            <div class="mb-3">
+              <label for="FullName" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control inputStyle shadow-none"
+                id="FullName"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control inputStyle shadow-none"
+                id="InputEmail"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="InputPhone" class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                class="form-control inputStyle shadow-none"
+                id="InputPhone"
+                placeholder="Phone Number"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </aside>
 
     <footer>
       <!-- Footer -->

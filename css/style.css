@@ -14,6 +14,18 @@
   footer {
     width: 80%;
   }
+  aside {
+    width: 19%;
+    min-height: 100vh;
+  }
+}
+body {
+  background-color: #f7f7f7;
+}
+section,
+aside,
+header {
+  background-color: white;
 }
 header {
   max-height: 70px;
@@ -120,6 +132,8 @@ footer h3 {
   width: 100%;
 }
 .pro-add {
+  font-size: 14px;
+  color: #888888;
   padding: 3px 4px 0 0;
 }
 
@@ -383,3 +397,46 @@ footer {
 .footer-logo {
   width: 150px;
 }
+
+.side-top-block {
+  margin: 0 0.5vw;
+  padding: 7px;
+  background-color: #212529;
+  color: #fff;
+  cursor: pointer;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+.side-top-block li:first-child {
+  border-left: none !important;
+}
+.sidebar-top {
+  background-color: #f1f1f1;
+}
+
+.form-label {
+  display: none;
+}
+.inputStyle {
+  font-size: 1.1vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.owl-nav {
+  display: none;
+}
+
+.section-link {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  display: block;
+}
+
+/* @media only screen and (min-width: 990px) {
+  .section-link {
+    top: -4.3vw;
+    height: 4.3vw;
+  }
+} */
