@@ -347,3 +347,49 @@ header {
   background-size: cover;
   border-radius: 10px;
 }
+
+/* Gallery Section */
+
+.gal-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.gal-img img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+
+/* Location Section */
+
+/* Virtual Tour Section */
+
+.virtual-visit {
+  height: 400px;
+}
+
+.bg-image {
+  background-image: url("/assets/img/1982231247.jpg");
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.tour-img {
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.play-btn {
+  font-size: 80px;
+}
+
+/* About Section */
+
+/* Footer */
+.footer-logo {
+  width: 150px;
+}
