@@ -340,13 +340,13 @@ aside {
 
 /* Amenities */
 /* For Mobile */
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 799px) {
   .dwn-btn-up {
     display: none;
   }
 }
 /* For Desktop */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 800px) {
   .dwn-btn-btm {
     display: none;
   }

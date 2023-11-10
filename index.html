@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lodha Crown Dombivli</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/crown-dombivli/css/bootstrap.min.css" />
@@ -97,7 +97,11 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a
+                  class="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal"
+                  href=""
                   ><i class="fa-solid fa-download nav-icon"></i> Download Brochure
                 </a>
               </li>
@@ -195,7 +199,12 @@
             >₹ 35.9 Lacs
             <small style="font-size: 14px">All Inc</small>
           </span>
-          <button class="pro-button effectMoveGradient">Download Brochure</button>
+          <button
+            class="pro-button effectMoveGradient"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            Download Brochure
+          </button>
         </div>
       </section>
 
@@ -231,7 +240,12 @@
               Get The Best Quote
             </span>
             <div class="container">
-              <form class="text-center">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="form.php"
+                method="POST"
+                class="text-center">
                 <div class="mb-3">
                   <label for="FullName" class="form-label">Name</label>
                   <input
@@ -301,7 +315,10 @@
           </a>
         </p>
         <!-- Download Brochure -->
-        <button class="download-btn pro-button effectMoveGradient">
+        <button
+          class="download-btn pro-button effectMoveGradient"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
           <i class="fa-solid fa-download nav-icon"></i>
           Download Brochure
         </button>
@@ -836,7 +853,12 @@
                     Get The Best Quote
                   </span>
                   <div class="container">
-                    <form class="text-center">
+                    <form
+                      id="contact-form"
+                      name="contact-form"
+                      action="form.php"
+                      method="POST"
+                      class="text-center">
                       <div class="mb-3">
                         <label for="FullName" class="form-label">Name</label>
                         <input
@@ -891,27 +913,28 @@
       <hr />
       <p style="text-align: center">
         © Copyright |
-        <a href="privacy-policy.php">Terms &amp; Conditions</a>
+        <a href="#">Terms &amp; Conditions</a>
         |
-        <a href="privacy-policy.php">Privacy Policy</a>
+        <a href="#">Privacy Policy</a>
         |
-        <a href="cookies-policy.php">Cookies Policy</a>
+        <a href="#">Cookies Policy</a>
       </p>
-
-      <!-- Mobile Footer Fixed Button -->
-      <div class="container-fluid fixed-bottom">
-        <ul class="nav nav-fill action-footer">
-          <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
-            <i class="fa-solid fa-download nav-icon"></i>
-            Floor Plan
-          </li>
-          <li class="nav-item ps-1">
-            <a href="tel:+912248962468" class="text-decoration-none text-white">
-              <i class="fa-solid fa-phone me-2"></i> +912248962468
-            </a>
-          </li>
-        </ul>
-      </div>
     </footer>
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom pt-3 mt-3 w-100">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
+          <i class="fa-brands fa-whatsapp nav-icon"></i> Whatsapp
+        </li>
+        <!-- <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li> -->
+        <li class="nav-item ps-1">
+          <a href="tel:+912248962468" class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Us
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
