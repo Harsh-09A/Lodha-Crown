@@ -6,14 +6,14 @@
     <title>Document</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/crown-dombivli/css/bootstrap.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/crown-dombivli/css/style.css" />
 
     <!-- Bootstrap JS -->
-    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="/crown-dombivli/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script defer src="/js/script.js"></script>
+    <script defer src="/crown-dombivli/js/script.js"></script>
 
     <!-- Font Awesome CDN -->
     <link
@@ -46,7 +46,7 @@
         id="main-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="/assets/img/Crown-U.png" alt="Logo" width="150px" />
+            <img src="/crown-dombivli/assets/img/Crown-U.png" alt="Logo" width="150px" />
           </a>
           <button
             class="navbar-toggler"
@@ -133,19 +133,19 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="/assets/img/Desktop_Banner1.jpg"
+                src="/crown-dombivli/assets/img/Desktop_Banner1.jpg"
                 class="d-block w-100"
                 alt="Banner1" />
             </div>
             <div class="carousel-item">
               <img
-                src="/assets/img/Desktop_Banner2.jpg"
+                src="/crown-dombivli/assets/img/Desktop_Banner2.jpg"
                 class="d-block w-100"
                 alt="Banner2" />
             </div>
             <div class="carousel-item">
               <img
-                src="/assets/img/Desktop_Banner3.jpg"
+                src="/crown-dombivli/assets/img/Desktop_Banner3.jpg"
                 class="d-block w-100"
                 alt="Banner3" />
             </div>
@@ -205,7 +205,9 @@
           <!-- Sidebar Top Links -->
           <div class="sidebar-top pb-2">
             <ul class="nav nav-fill side-top-block">
-              <li class="nav-item">Pre Register</li>
+              <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
+                Pre Register
+              </li>
               <li class="nav-item ps-1">
                 <a href="tel:+912248962468" class="text-decoration-none text-white">
                   <i class="fa-solid fa-phone me-2"></i> +912248962468
@@ -214,7 +216,9 @@
             </ul>
             <div class="container d-flex justify-content-center">
               <button
-                class="btn btn-sm btn-info micro-form-btn-sm effectGradient effectScale mt-1">
+                class="btn btn-sm btn-info micro-form-btn-sm effectGradient effectScale mt-1"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
                 <i class="fa-solid fa-phone me-2"></i>
                 Instant Call Back
               </button>
@@ -345,8 +349,8 @@
                         data-btn="Send now"
                         data-enquiry="Price Breakup"
                         data-redirect="floorplan"
-                        data-toggle="modal"
-                        data-target="#enqModal">
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
                         Price Breakup
                       </button>
                     </td>
@@ -374,8 +378,8 @@
                         data-btn="Send now"
                         data-enquiry="Price Breakup"
                         data-redirect="floorplan"
-                        data-toggle="modal"
-                        data-target="#enqModal">
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
                         Price Breakup
                       </button>
                     </td>
@@ -403,8 +407,8 @@
                         data-btn="Send now"
                         data-enquiry="Price Breakup"
                         data-redirect="floorplan"
-                        data-toggle="modal"
-                        data-target="#enqModal">
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
                         Price Breakup
                       </button>
                     </td>
@@ -415,7 +419,7 @@
           </div>
 
           <!--Costing Image  -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#popupModal">
             <a>
               <!-- Image -->
               <div class="overlay-container">
@@ -426,7 +430,7 @@
                 </div>
                 <img
                   class="img-fluid"
-                  src="/assets/img/costing.webp"
+                  src="/crown-dombivli/assets/img/costing.webp"
                   alt=""
                   width="100%" />
               </div>
@@ -447,7 +451,7 @@
         <div class="text-center">
           <img
             class="img-fluid"
-            src="/assets/img/floor-plans/master_02.webp"
+            src="/crown-dombivli/assets/img/floor-plans/master_02.webp"
             width="500px"
             alt="master-plan" />
         </div>
@@ -458,29 +462,29 @@
 
           <div class="container">
             <div class="row row-cols-1 row-cols-md-3">
-              <div class="col-md-4">
+              <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#popupModal">
                 <img
                   class="img-fluid floor-img"
-                  src="/assets/img/floor-plans/1bhk-322.webp"
+                  src="/crown-dombivli/assets/img/floor-plans/1bhk-322.webp"
                   alt="" />
                 <!-- Property Description -->
                 <div class="at-property-dis effectGradient text-center p-1">
                   <h5>1 BHK</h5>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#popupModal">
                 <img
                   class="img-fluid floor-img"
-                  src="/assets/img/floor-plans/2bhk-458.webp"
+                  src="/crown-dombivli/assets/img/floor-plans/2bhk-458.webp"
                   alt="" />
                 <div class="at-property-dis effectGradient text-center p-1">
                   <h5>1 BHK</h5>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#popupModal">
                 <img
                   class="img-fluid floor-img"
-                  src="/assets/img/floor-plans/2bhk-487.webp"
+                  src="/crown-dombivli/assets/img/floor-plans/2bhk-487.webp"
                   alt="" />
                 <div class="at-property-dis effectGradient text-center p-1">
                   <h5>1 BHK</h5>
@@ -495,26 +499,28 @@
       <section id="amenities" class="container p-4 shadow-sm text-center">
         <div class="d-flex justify-content-between">
           <h2 class="section-heading">Amenities</h2>
-          <button class="dwn-btn-up effectMoveGradient">Download Amenities</button>
+          <button
+            class="dwn-btn-up effectMoveGradient"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            Download Amenities
+          </button>
         </div>
 
         <!-- Carousel -->
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/cafe.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/cafe.webp"
+                alt="" />
             </div>
             <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/carpark.webp" alt="" />
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/gamezone.webp" alt="" />
-            </div>
-            <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/kidarea.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/carpark.webp"
+                alt="" />
             </div>
           </div>
 
@@ -522,11 +528,14 @@
             <div class="carousel-image">
               <img
                 class="img-fluid"
-                src="/assets/img//amenities/landgarden.webp"
+                src="/crown-dombivli/assets/img//amenities/gamezone.webp"
                 alt="" />
             </div>
             <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/partyhall.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/kidarea.webp"
+                alt="" />
             </div>
           </div>
 
@@ -534,11 +543,14 @@
             <div class="carousel-image">
               <img
                 class="img-fluid"
-                src="/assets/img//amenities/powerbackup.webp"
+                src="/crown-dombivli/assets/img//amenities/landgarden.webp"
                 alt="" />
             </div>
             <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/security.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/partyhall.webp"
+                alt="" />
             </div>
           </div>
 
@@ -546,45 +558,90 @@
             <div class="carousel-image">
               <img
                 class="img-fluid"
-                src="/assets/img//amenities/swimmingpool.webp"
+                src="/crown-dombivli/assets/img//amenities/powerbackup.webp"
                 alt="" />
             </div>
             <div class="carousel-image">
-              <img class="img-fluid" src="/assets/img//amenities/temples.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/security.webp"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image">
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/swimmingpool.webp"
+                alt="" />
+            </div>
+            <div class="carousel-image">
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img//amenities/temples.webp"
+                alt="" />
             </div>
           </div>
         </div>
-        <button class="effectMoveGradient dwn-btn-btm">Download Amenities</button>
+        <button
+          class="effectMoveGradient dwn-btn-btm"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          Download Amenities
+        </button>
       </section>
 
       <!-- Gallery Section -->
       <section id="gallery" class="container p-4 shadow-sm text-center">
         <div class="d-flex justify-content-between">
           <h2 class="section-heading">Gallery</h2>
-          <button class="effectMoveGradient dwn-btn-up">Download Gallery</button>
+          <button
+            class="effectMoveGradient dwn-btn-up"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            Download Gallery
+          </button>
         </div>
 
         <!-- Gallery -->
         <div class="container">
           <div class="row row-cols-1 row-cols-md-4">
             <div class="col-md-3 g-3 gal-img">
-              <img class="img-fluid floor-img" src="/assets/img/gallery/1u.webp" alt="" />
+              <img
+                class="img-fluid floor-img"
+                src="/crown-dombivli/assets/img/gallery/1u.webp"
+                alt="" />
             </div>
 
             <div class="col-md-3 g-3 gal-img">
-              <img class="img-fluid floor-img" src="/assets/img/gallery/2u.webp" alt="" />
+              <img
+                class="img-fluid floor-img"
+                src="/crown-dombivli/assets/img/gallery/2u.webp"
+                alt="" />
             </div>
 
             <div class="col-md-3 g-3 gal-img">
-              <img class="img-fluid floor-img" src="/assets/img/gallery/3u.webp" alt="" />
+              <img
+                class="img-fluid floor-img"
+                src="/crown-dombivli/assets/img/gallery/3u.webp"
+                alt="" />
             </div>
 
             <div class="col-md-3 g-3 gal-img">
-              <img class="img-fluid floor-img" src="/assets/img/gallery/4u.webp" alt="" />
+              <img
+                class="img-fluid floor-img"
+                src="/crown-dombivli/assets/img/gallery/4u.webp"
+                alt="" />
             </div>
           </div>
         </div>
-        <button class="m-3 dwn-btn-btm effectMoveGradient">Download Gallery</button>
+        <button
+          class="m-3 dwn-btn-btm effectMoveGradient"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          Download Gallery
+        </button>
       </section>
 
       <!-- Location Section -->
@@ -609,7 +666,10 @@
             <!-- Map Image -->
             <div class="col-md-4">
               <p class="fw-bold fs-5">Location Map</p>
-              <img class="img-fluid" src="/assets/img/LocationMap.webp" alt="" />
+              <img
+                class="img-fluid"
+                src="/crown-dombivli/assets/img/LocationMap.webp"
+                alt="" />
             </div>
           </div>
         </div>
@@ -668,7 +728,10 @@
       <!-- About Section -->
       <section id="about" class="container p-4 shadow-sm">
         <div class="container d-flex justify-content-center">
-          <img class="footer-logo img-fluid" src="/assets/img/Crown-U.png" alt="" />
+          <img
+            class="footer-logo img-fluid"
+            src="/crown-dombivli/assets/img/Crown-U.png"
+            alt="" />
         </div>
         <div class="container w-100 mt-2">
           <p class="fs-5 fw-bold text-center text-md-start">About Lodha Group</p>
@@ -689,7 +752,7 @@
                 <div class="rera-box">
                   <div class="rera-img">
                     <img
-                      src="/assets/img/qrcodelodha_crown_1.webp"
+                      src="/crown-dombivli/assets/img/qrcodelodha_crown_1.webp"
                       loading="lazy"
                       style="max-width: 100%; height: 100px; display: inline-block" />
                   </div>
@@ -706,7 +769,7 @@
                 <div class="rera-box">
                   <div class="rera-img">
                     <img
-                      src="/assets/img/qrcodelodha_crown_2.webp"
+                      src="/crown-dombivli/assets/img/qrcodelodha_crown_2.webp"
                       loading="lazy"
                       style="max-width: 100%; height: 100px; display: inline-block" />
                   </div>
@@ -730,6 +793,90 @@
           >
         </div>
       </section>
+
+      <!-- Modal -->
+      <!-- Button trigger modal -->
+      <!-- <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#popupModal">
+        Launch demo modal
+      </button> -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="popupModal"
+        tabindex="-1"
+        aria-labelledby="ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Title -->
+            <div class="modal-header">
+              <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <div class="container text-center">
+                <img src="/crown-dombivli/assets/img/Crown-U.png" alt="" width="150px" />
+                <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+              </div>
+              <div class="container">
+                <!--Enquire Form  -->
+                <div class="enquire-section">
+                  <span class="d-block text-center text-black fw-bold my-2">
+                    Get The Best Quote
+                  </span>
+                  <div class="container">
+                    <form class="text-center">
+                      <div class="mb-3">
+                        <label for="FullName" class="form-label">Name</label>
+                        <input
+                          type="text"
+                          class="form-control inputStyle shadow-none"
+                          id="FullName"
+                          placeholder="Name" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="InputEmail" class="form-label">Email address</label>
+                        <input
+                          type="email"
+                          class="form-control inputStyle shadow-none"
+                          id="InputEmail"
+                          placeholder="Email Address" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="InputPhone" class="form-label">Phone Number</label>
+                        <input
+                          type="tel"
+                          class="form-control inputStyle shadow-none"
+                          id="InputPhone"
+                          placeholder="Phone Number" />
+                      </div>
+                      <button
+                        type="submit"
+                        class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <!-- Footer -->
@@ -750,6 +897,21 @@
         |
         <a href="cookies-policy.php">Cookies Policy</a>
       </p>
+
+      <!-- Mobile Footer Fixed Button -->
+      <div class="container-fluid fixed-bottom">
+        <ul class="nav nav-fill action-footer">
+          <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
+            <i class="fa-solid fa-download nav-icon"></i>
+            Floor Plan
+          </li>
+          <li class="nav-item ps-1">
+            <a href="tel:+912248962468" class="text-decoration-none text-white">
+              <i class="fa-solid fa-phone me-2"></i> +912248962468
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

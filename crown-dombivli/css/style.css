@@ -350,6 +350,9 @@ aside {
   .dwn-btn-btm {
     display: none;
   }
+  .action-footer {
+    display: none;
+  }
 }
 
 .owl-nav {
@@ -396,7 +399,7 @@ aside {
 }
 
 .bg-image {
-  background-image: url("/assets/img/1982231247.jpg");
+  background-image: url("/crown-dombivli/assets/img/1982231247.jpg");
   height: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -410,7 +413,16 @@ aside {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .play-btn {
-  font-size: 80px;
+  font-size: 4vw;
+}
+.overlay-info:hover {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 990px) {
+  .play-btn {
+    font-size: 50px;
+  }
 }
 
 /* About Section */
@@ -588,4 +600,23 @@ aside {
 .overlay-container:hover .overlay-slider-top {
   bottom: 0;
   height: 100%;
+}
+
+/*  */
+.action-footer {
+  margin: 0 0.5vw;
+  padding: 7px;
+  background-color: var(--colorPrimary);
+  color: #fff;
+  cursor: pointer;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+}
+
+.side-top-block li:first-child {
+  border-left: none !important;
+}
+
+.action-footer li:first-child {
+  border-left: none !important;
 }
