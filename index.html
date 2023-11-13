@@ -226,8 +226,8 @@
                 Pre Register
               </li>
               <li class="nav-item ps-1">
-                <a href="tel:+912248962468" class="text-decoration-none text-white">
-                  <i class="fa-solid fa-phone me-2"></i> +912248962468
+                <a href="tel:+919082586679" class="text-decoration-none text-white">
+                  <i class="fa-solid fa-phone me-2"></i> +919082586679
                 </a>
               </li>
             </ul>
@@ -259,25 +259,56 @@
                   <input
                     type="text"
                     class="form-control inputStyle shadow-none"
+                    name="FullName"
                     id="FullName"
-                    placeholder="Name" />
+                    placeholder="Name"
+                    autocomplete="off"
+                    required />
                 </div>
                 <div class="mb-3">
                   <label for="InputEmail" class="form-label">Email address</label>
                   <input
                     type="email"
                     class="form-control inputStyle shadow-none"
+                    name="InputEmail"
                     id="InputEmail"
-                    placeholder="Email Address" />
+                    placeholder="Email Address"
+                    autocomplete="off" />
                 </div>
                 <div class="mb-3">
                   <label for="InputPhone" class="form-label">Phone Number</label>
                   <input
                     type="tel"
                     class="form-control inputStyle shadow-none"
+                    name="InputPhone"
                     id="InputPhone"
-                    placeholder="Phone Number" />
+                    placeholder="Phone Number"
+                    autocomplete="off"
+                    required />
                 </div>
+                <div class="mb-3">
+                  <label for="InputPickup" class="form-label">Pickup Address</label>
+                  <input
+                    type="text"
+                    class="form-control inputStyle shadow-none"
+                    name="InputPickup"
+                    id="InputPickup"
+                    placeholder="Pickup Address"
+                    autocomplete="off"
+                    required />
+                </div>
+                <div class="mb-3">
+                  <label for="InputDateTime" class="form-label">Date Time</label>
+                  <input
+                    type="datetime-local"
+                    class="form-control inputStyle shadow-none"
+                    name="InputDateTime"
+                    id="InputDateTime"
+                    placeholder="Date Time"
+                    autocomplete="off"
+                    required />
+                </div>
+
                 <button
                   type="submit"
                   class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
@@ -483,7 +514,12 @@
             <div class="overlay-slider-bottom"></div>
             <div
               class="overlay-slider-top d-flex justify-content-center align-items-center">
-              <button class="btn btn-success text-white enq-btn">View Master Plan</button>
+              <button
+                class="btn btn-success text-white enq-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                View Master Plan
+              </button>
             </div>
           </div>
         </div>
@@ -565,7 +601,7 @@
         <div class="d-flex justify-content-between">
           <h2 class="section-heading">Amenities</h2>
           <button
-            class="dwn-btn-up effectMoveGradient btn-sm"
+            class="dwn-btn-up effectMoveGradient"
             data-bs-toggle="modal"
             data-bs-target="#popupModal">
             Download Amenities
@@ -740,7 +776,10 @@
                 <div class="overlay-slider-bottom"></div>
                 <div
                   class="overlay-slider-top d-flex justify-content-center align-items-center">
-                  <button class="btn btn-success text-white enq-btn">
+                  <button
+                    class="btn btn-success text-white enq-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#popupModal">
                     Download Location Map
                   </button>
                 </div>
@@ -791,7 +830,10 @@
           <div class="bg-image d-flex align-items-center text-white text-center">
             <div class="tour-img">
               <div class="overlay-info">
-                <i class="fa-solid fa-circle-play play-btn"></i>
+                <i
+                  class="fa-solid fa-circle-play play-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal"></i>
                 <h3 class="fs-1">Virtual Visit</h3>
                 <h5>Lodha Crown Dombivli</h5>
               </div>
@@ -911,6 +953,7 @@
                     Get The Best Quote
                   </span>
                   <div class="container">
+                    <!-- Form -->
                     <form
                       id="contact-form"
                       name="contact-form"
@@ -922,25 +965,56 @@
                         <input
                           type="text"
                           class="form-control inputStyle shadow-none"
+                          name="FullName"
                           id="FullName"
-                          placeholder="Name" />
+                          placeholder="Name"
+                          autocomplete="off"
+                          required />
                       </div>
                       <div class="mb-3">
                         <label for="InputEmail" class="form-label">Email address</label>
                         <input
                           type="email"
                           class="form-control inputStyle shadow-none"
+                          name="InputEmail"
                           id="InputEmail"
-                          placeholder="Email Address" />
+                          placeholder="Email Address"
+                          autocomplete="off" />
                       </div>
                       <div class="mb-3">
                         <label for="InputPhone" class="form-label">Phone Number</label>
                         <input
                           type="tel"
                           class="form-control inputStyle shadow-none"
+                          name="InputPhone"
                           id="InputPhone"
-                          placeholder="Phone Number" />
+                          placeholder="Phone Number"
+                          autocomplete="off"
+                          required />
                       </div>
+                      <div class="mb-3">
+                        <label for="InputPickup" class="form-label">Pickup Address</label>
+                        <input
+                          type="text"
+                          class="form-control inputStyle shadow-none"
+                          name="InputPickup"
+                          id="InputPickup"
+                          placeholder="Pickup Address"
+                          autocomplete="off"
+                          required />
+                      </div>
+                      <div class="mb-3">
+                        <label for="InputDateTime" class="form-label">Date Time</label>
+                        <input
+                          type="datetime-local"
+                          class="form-control inputStyle shadow-none"
+                          name="InputDateTime"
+                          id="InputDateTime"
+                          placeholder="Date Time"
+                          autocomplete="off"
+                          required />
+                      </div>
+
                       <button
                         type="submit"
                         class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
@@ -959,10 +1033,10 @@
       </div>
     </main>
 
-    <footer class="footer container p-4">
+    <footer class="footer p-4">
       <!-- Footer -->
       <p class="disclaimer">
-        Disclaimer: We are an authorised marketing partner for this project. Provided
+        Disclaimer: We are an authorized marketing partner for this project. Provided
         content is given by respective owners and this website and content is for
         information purpose only and it does not constitute any offer to avail for any
         services. Prices mentioned are subject to change without prior notice and
@@ -972,11 +1046,11 @@
       <hr />
       <p class="copyright-text">
         © Copyright |
-        <a href="#">Terms &amp; Conditions</a>
+        <a href="privacy-policy.html">Terms &amp; Conditions</a>
         |
-        <a href="#">Privacy Policy</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
         |
-        <a href="#">Cookies Policy</a>
+        <a href="cookies-policy.html">Cookies Policy</a>
       </p>
     </footer>
 
@@ -988,7 +1062,7 @@
         </li>
 
         <li class="nav-item ps-1">
-          <a href="tel:+912248962468" class="text-decoration-none text-white">
+          <a href="tel:+919082586679" class="text-decoration-none text-white">
             <i class="fa-solid fa-phone me-2"></i> Call Us
           </a>
         </li>

@@ -463,6 +463,9 @@ aside {
   border-radius: 10px;
 }
 .dwn-btn-up {
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 16vw;
   /* padding: 0.1em 0.2em; */
   border-radius: 10px;
 }
@@ -697,4 +700,8 @@ aside {
 
 .locaton-features i {
   color: var(--colorPrimary);
+}
+
+.cookie-page {
+  font-size: 0.9em;
 }
