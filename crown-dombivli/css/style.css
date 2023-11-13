@@ -343,6 +343,19 @@ aside {
   width: 500px;
 }
 
+.enq-btn {
+  text-transform: uppercase;
+  border: 0.1vw solid #e0e0e0;
+  background: 0 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.5s ease-in-out;
+  &:hover {
+    border: 0.1vw solid #e0e0e0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
 /* Amenities */
 /* For Mobile */
 @media only screen and (max-width: 799px) {
