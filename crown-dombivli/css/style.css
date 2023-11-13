@@ -320,8 +320,9 @@ aside {
 }
 
 .section-heading {
+  width: 100%;
   color: var(--colorPrimary);
-  font-size: 1.1em;
+  font-size: 1.7em;
   text-align: center;
 }
 @media only screen and (min-width: 990px) {
@@ -462,7 +463,7 @@ aside {
   border-radius: 10px;
 }
 .dwn-btn-up {
-  padding: 0.1em 0.2em;
+  /* padding: 0.1em 0.2em; */
   border-radius: 10px;
 }
 
@@ -648,14 +649,19 @@ aside {
 }
 
 /*  */
+.action-footer-container {
+  margin: 0;
+  padding: 0;
+}
 .action-footer {
-  margin: 0 0.5vw;
+  margin: 0;
   padding: 7px;
   background-color: var(--colorPrimary);
   color: #fff;
   cursor: pointer;
   border-top-left-radius: 1vw;
   border-top-right-radius: 1vw;
+  font-size: 0.8em;
 }
 
 .side-top-block li:first-child {
@@ -664,4 +670,31 @@ aside {
 
 .action-footer li:first-child {
   border-left: none !important;
+}
+
+.rera-details {
+  font-size: 0.8em;
+}
+.about-text {
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.disclaimer {
+  font-size: 0.9em;
+  text-align: justify;
+}
+.copyright-text {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+}
+
+.locaton-features i {
+  color: var(--colorPrimary);
 }

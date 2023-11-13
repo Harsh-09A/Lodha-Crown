@@ -68,32 +68,38 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#pricing">
-                  <i class="fa-solid fa-coins nav-icon"></i> Price
+                  <i class="fa-solid fa-coins nav-icon"></i>
+                  <span class="d-sm-inline"> Price</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#floor-plan">
-                  <i class="fa-solid fa-warehouse nav-icon"></i> Site & Floor Plan
+                  <i class="fa-solid fa-warehouse nav-icon"></i>
+                  <span class="d-sm-inline">Site & Floor Plan</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#amenities">
-                  <i class="fa-solid fa-wifi nav-icon"></i> Amenities
+                  <i class="fa-solid fa-wifi nav-icon"></i>
+                  <span class="d-sm-inline"> Amenities</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#gallery">
-                  <i class="fa-solid fa-images nav-icon"></i> Gallery
+                  <i class="fa-solid fa-images nav-icon"></i>
+                  <span class="d-sm-inline"> Gallery</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#location">
-                  <i class="fa-solid fa-map-location nav-icon"></i> Location
+                  <i class="fa-solid fa-map-location nav-icon"></i>
+                  <span class="d-sm-inline"> Location</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#virtual-tour">
-                  <i class="fa-brands fa-youtube nav-icon"></i> Virtual Site Visit
+                  <i class="fa-brands fa-youtube nav-icon"></i>
+                  <span class="d-sm-inline"> Virtual Site Visit</span>
                 </a>
               </li>
               <li class="nav-item">
@@ -101,8 +107,9 @@
                   class="nav-link"
                   data-bs-toggle="modal"
                   data-bs-target="#popupModal"
-                  href=""
-                  ><i class="fa-solid fa-download nav-icon"></i> Download Brochure
+                  href="">
+                  <i class="fa-solid fa-download nav-icon"></i>
+                  <span class="d-sm-inline"> Download Brochure</span>
                 </a>
               </li>
             </ul>
@@ -438,7 +445,7 @@
           </div>
 
           <!--Costing Image  -->
-          <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#popupModal">
+          <div class="col-md-4 mt-1" data-bs-toggle="modal" data-bs-target="#popupModal">
             <a>
               <!-- Image -->
               <div class="overlay-container">
@@ -558,7 +565,7 @@
         <div class="d-flex justify-content-between">
           <h2 class="section-heading">Amenities</h2>
           <button
-            class="dwn-btn-up effectMoveGradient"
+            class="dwn-btn-up effectMoveGradient btn-sm"
             data-bs-toggle="modal"
             data-bs-target="#popupModal">
             Download Amenities
@@ -743,7 +750,7 @@
         </div>
 
         <!-- Location Features -->
-        <div class="container">
+        <div class="container locaton-features">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div class="col my-2">
               <i class="fa-solid fa-location-dot"></i>
@@ -803,7 +810,7 @@
         </div>
         <div class="container w-100 mt-2">
           <p class="fs-5 fw-bold text-center text-md-start">About Lodha Group</p>
-          <p>
+          <p class="about-text">
             One of India's leading real estate firms, the Lodha Group is renowned for
             building urban dream homes that offer refined living. The developer caters to
             all segments, from luxury to budget residences and has built iconic landmarks
@@ -816,7 +823,7 @@
           <p class="fs-5 fw-bold text-center text-md-start">RERA Information</p>
           <div class="container">
             <div class="row">
-              <div class="col-md-3 col-6">
+              <div class="col-md-3 col-6 g-2">
                 <div class="rera-box">
                   <div class="rera-img">
                     <img
@@ -833,7 +840,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-6">
+              <div class="col-md-3 col-6 g-2">
                 <div class="rera-box">
                   <div class="rera-img">
                     <img
@@ -851,14 +858,14 @@
               </div>
             </div>
           </div>
-          <span class="text-center text-md-start"
+          <span class="text-center text-md-start about-text"
             >Lodha has been registered via MahaRERA registration number and is available
-            on the <br />website
-            <a href="https://maharera.mahaonline.gov.in/"
-              >https://maharera.mahaonline.gov.in/</a
+            on the website
+            <a href="https://maharera.mahaonline.gov.in/">
+              https://maharera.mahaonline.gov.in/</a
             >
-            under registered projects.</span
-          >
+            under registered projects.
+          </span>
         </div>
       </section>
 
@@ -952,9 +959,9 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="footer container p-4">
       <!-- Footer -->
-      <p class="fs-6 container p-4">
+      <p class="disclaimer">
         Disclaimer: We are an authorised marketing partner for this project. Provided
         content is given by respective owners and this website and content is for
         information purpose only and it does not constitute any offer to avail for any
@@ -963,7 +970,7 @@
         emails on details registered with us.
       </p>
       <hr />
-      <p style="text-align: center">
+      <p class="copyright-text">
         © Copyright |
         <a href="#">Terms &amp; Conditions</a>
         |
@@ -974,18 +981,20 @@
     </footer>
 
     <!-- Mobile Footer Fixed Button -->
-    <div class="container-fluid fixed-bottom pt-3 mt-3 w-100">
+    <div class="container-fluid fixed-bottom action-footer-container">
       <ul class="nav nav-fill action-footer">
         <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
-          <i class="fa-brands fa-whatsapp nav-icon"></i> Whatsapp
+          <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
         </li>
-        <!-- <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
-          <i class="fa-solid fa-download nav-icon"></i> Brochure
-        </li> -->
+
         <li class="nav-item ps-1">
           <a href="tel:+912248962468" class="text-decoration-none text-white">
             <i class="fa-solid fa-phone me-2"></i> Call Us
           </a>
+        </li>
+
+        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
         </li>
       </ul>
     </div>
