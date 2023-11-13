@@ -29,6 +29,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("BnRoAjGd5ec2E2VQn");
+      })();
+    </script>
   </head>
 
   <body
@@ -248,12 +259,7 @@
               Get The Best Quote
             </span>
             <div class="container">
-              <form
-                id="contact-form"
-                name="contact-form"
-                action="form.php"
-                method="POST"
-                class="text-center">
+              <form id="contact-form" class="text-center">
                 <div class="mb-3">
                   <label for="FullName" class="form-label">Name</label>
                   <input
