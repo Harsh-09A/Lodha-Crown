@@ -1,7 +1,4 @@
-(function () {
-  emailjs.init("BnRoAjGd5ec2E2VQn");
-})();
-
+// Sidebar
 window.onload = function () {
   document.getElementById("contact-form").addEventListener("submit", function (event) {
     event.preventDefault();
