@@ -70,6 +70,9 @@ window.onload = function () {
           console.log("SUCCESS!", response.status, response.text);
           alert("Message Sent");
           document.getElementById("contact-form").reset();
+          if (response.status === 200) {
+            window.location.href = "/thank-you.html";
+          }
         },
         function (error) {
           console.log("FAILED...", error);
@@ -151,6 +154,9 @@ window.onload = function () {
             console.log("SUCCESS!", response.status, response.text);
             alert("Message Sent");
             document.getElementById("contact-form-modal").reset();
+            if (response.status === 200) {
+              window.location.href = "/thank-you.html";
+            }
           },
           function (error) {
             console.log("FAILED...", error);
@@ -160,5 +166,6 @@ window.onload = function () {
       }
 
       sendEmail();
+      // redirect();
     });
 };
