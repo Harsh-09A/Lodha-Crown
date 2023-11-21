@@ -88,6 +88,16 @@ aside {
   margin-right: 5px;
 }
 
+@media only screen and (min-width: 990px) {
+  .navbar-nav .nav-link {
+    font-size: 1.01vw !important;
+    letter-spacing: 0.02vw;
+  }
+  .nav-item {
+    border-left: 0.1vw solid var(--colorBorderWhite);
+  }
+}
+
 /* Slider */
 #slider {
   margin-top: 70px;
@@ -418,7 +428,7 @@ aside {
 }
 
 .bg-image {
-  background-image: url("/crown-dombivli/assets/img/bg_image.jpg");
+  background-image: url("../assets/img/bg_image.jpg");
   height: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
