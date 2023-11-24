@@ -35,11 +35,6 @@
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script>
-      (function () {
-        emailjs.init("BnRoAjGd5ec2E2VQn");
-      })();
-    </script>
     <script src="crown-dombivli/js/mail.js"></script>
 
     <!-- Meta Pixel Code -->
@@ -957,122 +952,6 @@
         data-bs-target="#popupModal">
         Launch demo modal
       </button> -->
-
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="popupModal"
-        tabindex="-1"
-        aria-labelledby="ModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Title -->
-            <div class="modal-header">
-              <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"></button>
-            </div>
-
-            <!-- Modal Body -->
-            <div class="modal-body">
-              <div class="container text-center">
-                <img src="crown-dombivli/assets/img/Crown-U.png" alt="" width="150px" />
-                <p class="mt-2">Register Here And Avail The Best Offers!!</p>
-              </div>
-              <div class="container">
-                <!--Enquire Form  -->
-                <div class="enquire-section">
-                  <span class="d-block text-center text-black fw-bold my-2">
-                    Get The Best Quote
-                  </span>
-                  <div class="container">
-                    <!-- Form -->
-                    <form id="contact-form-modal" class="text-center">
-                      <div class="mb-3">
-                        <label for="user_name_modal" class="form-label">Name</label>
-                        <input
-                          type="text"
-                          class="form-control inputStyle shadow-none"
-                          name="user_name"
-                          id="user_name_modal"
-                          placeholder="Name"
-                          autocomplete="off"
-                          required />
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="user_email_modal" class="form-label"
-                          >Email address</label
-                        >
-                        <input
-                          type="email"
-                          class="form-control inputStyle shadow-none"
-                          name="user_email"
-                          id="user_email_modal"
-                          placeholder="Email Address"
-                          autocomplete="off" />
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="contact_number_modal" class="form-label"
-                          >Phone Number</label
-                        >
-                        <input
-                          type="tel"
-                          class="form-control inputStyle shadow-none"
-                          name="contact_number"
-                          id="contact_number_modal"
-                          placeholder="Phone Number"
-                          autocomplete="off"
-                          required />
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="pickup_location_modal" class="form-label"
-                          >Pickup Address</label
-                        >
-                        <input
-                          type="text"
-                          class="form-control inputStyle shadow-none"
-                          name="pickup_location"
-                          id="pickup_location_modal"
-                          placeholder="Pickup Address"
-                          autocomplete="off"
-                          required />
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="date_time_modal" class="form-label">Date Time</label>
-                        <input
-                          type="datetime-local"
-                          class="form-control inputStyle shadow-none"
-                          name="date_time"
-                          id="date_time_modal"
-                          placeholder="Date Time"
-                          autocomplete="off"
-                          required />
-                      </div>
-
-                      <button
-                        type="submit"
-                        class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
-                        Submit
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Modal Footer -->
-            <div class="modal-footer"></div>
-          </div>
-        </div>
-      </div>
     </main>
 
     <footer class="footer p-4">
@@ -1114,6 +993,122 @@
           <i class="fa-solid fa-download nav-icon"></i> Brochure
         </li>
       </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center">
+              <img src="crown-dombivli/assets/img/Crown-U.png" alt="" width="150px" />
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center text-black fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        placeholder="Phone Number"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="pickup_location_modal" class="form-label"
+                        >Pickup Address</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="pickup_location"
+                        id="pickup_location_modal"
+                        placeholder="Pickup Address"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="date_time_modal" class="form-label">Date Time</label>
+                      <input
+                        type="datetime-local"
+                        class="form-control inputStyle shadow-none"
+                        name="date_time"
+                        id="date_time_modal"
+                        placeholder="Date Time"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
