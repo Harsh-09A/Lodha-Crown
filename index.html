@@ -314,8 +314,11 @@
                     class="form-control inputStyle shadow-none"
                     name="contact_number"
                     id="contact_number"
-                    placeholder="Phone Number"
                     autocomplete="off"
+                    pattern="[0-9]{10}"
+                    placeholder="Phone Number"
+                    oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                    oninput="setCustomValidity('')"
                     required />
                 </div>
                 <div class="mb-3">
@@ -1063,7 +1066,10 @@
                         class="form-control inputStyle shadow-none"
                         name="contact_number"
                         id="contact_number_modal"
+                        pattern="[0-9]{10}"
                         placeholder="Phone Number"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
                         autocomplete="off"
                         required />
                     </div>
