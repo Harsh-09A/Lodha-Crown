@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init("BnRoAjGd5ec2E2VQn");
+  emailjs.init("to9PlFrMMimgruuH0");
 })();
 
 // Get 12 hr Format Time
@@ -49,7 +49,7 @@ const handleFormSubmit = async (
     date_time: await get12HourTime(dateField),
     ip_address: await getIpAddress(),
 
-    to_email: "harsh.autowebbed@gmail.com",
+    to_email: "namayasahoo07@gmail.com",
     company_name: "DIGIN",
   };
 
